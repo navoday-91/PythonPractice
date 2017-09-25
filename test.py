@@ -2,7 +2,7 @@ dict1 = set([('a',10,20), ('c',15,25), ('b',5,10), ('d',20,30), ('f',30,35), ('g
 
 #method 2 using sorted only (will have to pass a key in else which will pull the unmatched items to bottom in sort
 # I don't like this method much
-dict1 = sorted(dict1, key = lambda elem: (elem[1], elem[2]))
+dict1 = sorted(dict1, key = lambda elem: (elem[1], elem[2], elem[0]))
 query = 25
 crawl = False
 a = 0
