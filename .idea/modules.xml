@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CMPE272/.idea/CMPE272.iml" filepath="$PROJECT_DIR$/../CMPE272/.idea/CMPE272.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CMPE273-Sithu/.idea/CMPE273-Sithu.iml" filepath="$PROJECT_DIR$/../CMPE273-Sithu/.idea/CMPE273-Sithu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonPractice.iml" filepath="$PROJECT_DIR$/.idea/PythonPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Udacity_Scalable_App/.idea/Udacity Scalable App.iml" filepath="$PROJECT_DIR$/../Udacity_Scalable_App/.idea/Udacity Scalable App.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hello-world/.idea/hello-world.iml" filepath="$PROJECT_DIR$/../hello-world/.idea/hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/../testapp/.idea/testapp.iml" filepath="$PROJECT_DIR$/../testapp/.idea/testapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ud858/.idea/ud858.iml" filepath="$PROJECT_DIR$/../ud858/.idea/ud858.iml" />
     </modules>
   </component>
 </project>

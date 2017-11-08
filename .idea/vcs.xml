@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../CMPE272" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../CMPE273-Sithu" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Djangocodes" vcs="" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Udacity_Scalable_App" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hello-world" vcs="" />
     <mapping directory="$PROJECT_DIR$/../testapp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ud858" vcs="Git" />
   </component>
 </project>

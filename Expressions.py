@@ -11,19 +11,15 @@ import itertools
 import string
 
 
-def compile_formula(formula, verbose=False):
-    """Compile formula into a function. Also return letters found, as a str,
-    in same order as parms of function. The first digit of a multi-digit 
-    number can't be 0. So if YOU is a word in the formula, and the function
-    is called with Y eqal to 0, the function should return False."""
-
-    # modify the code in this function.
-
+def compile_formula(formula, verbose=True):
     letters = ''.join(set(re.findall('[A-Z]', formula)))
     firstletters = set(re.findall(r'\b([A-Z])[A-Z0-9]', formula))
     parms = ', '.join(letters)
     tokens = map(compile_word, re.split('([A-Z0-9]+)', formula))
     body = ''.join(tokens)
+    print(tokens)
+    print(parms)
+    print(body)
     if firstletters:
         tests = ' and '.join(L + '!=0' for L in firstletters)
         body = '%s and %s' % (tests, body)
@@ -33,9 +29,7 @@ def compile_formula(formula, verbose=False):
 
 
 def compile_word(word):
-    """Compile a word of uppercase letters as numeric digits.
-    E.g., compile_word('YOU') => '(1*U+10*O+100*Y)'
-    Non-uppercase words uncahanged: compile_word('+') => '+'"""
+    print(word)
     if word.isupper():
         terms = [('%s*%s' % (10 ** i, d))
                  for (i, d) in enumerate(word[::-1])]
@@ -56,10 +50,6 @@ def faster_solve(formula):
 
 
 def test():
-    print(faster_solve('(X**2) + (Y**2) + (2*X*Y) == 25'))
-    print(faster_solve('ODD + ODD == EVEN'))
-    print(faster_solve('AB * CA == AVZ'))
-
-
+    print(faster_solve('NORTH + EAST + SOUTH + WEST == EARTH'))
 
 test()

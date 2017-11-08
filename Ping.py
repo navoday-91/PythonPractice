@@ -13,6 +13,7 @@ for host in ipaddresses:
         stderr = subprocess.PIPE
     )
     out, error = ping.communicate()
+    print(out)
     #Making an o/p list of tuples - [(avg latency, ip address, region)...(,,)]
     latencylist.append((float(str(out).split("min/avg/max/stddev = ")[1].split("/")[1]), host, regions[i]))
     i+=1

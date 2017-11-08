@@ -6,6 +6,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="hello-world" />
     <orderEntry type="module" module-name="testapp" />
+    <orderEntry type="module" module-name="CMPE273-Sithu" />
+    <orderEntry type="module" module-name="Udacity Scalable App" />
+    <orderEntry type="module" module-name="ud858" />
+    <orderEntry type="module" module-name="Udacity Scalable App" />
+    <orderEntry type="module" module-name="PycharmProjects" />
+    <orderEntry type="module" module-name="CMPE272" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
